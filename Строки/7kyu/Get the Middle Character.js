@@ -28,6 +28,6 @@ function getMiddle(s) {
 }
 
 console.log(getMiddle('test'));
-console.log(getMiddle('testing'));
+console.log(getMiddle('testing'))b
 console.log(getMiddle('middle'));
 console.log(getMiddle('A'));
