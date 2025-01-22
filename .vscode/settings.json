@@ -1,0 +1,24 @@
+{
+    // Main editor settings
+    "window.openFilesInNewWindow": "off",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "bounded",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 80,
+    "editor.folding": false,
+    "editor.insertSpaces": false,
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": true,
+    "editor.suggestSelection": "first",
+    "editor.fontSize": 17,
+    "symbols.hidesExplorerArrows": false
+
+
+
+    // Appearance
+    "editor.bracketPairColorization.enabled": false,
+    "editor.glyphMargin": false,
+    "editor.scrollbar.horizontal": "hidden",
+    
+}
