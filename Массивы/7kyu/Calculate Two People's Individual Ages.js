@@ -8,13 +8,24 @@ difference < 0
 Either of the calculated ages come out to be negative
 */
 
-function getAges(sum,difference){
-  if (sum < 0 || difference < 0) return null
+function getAges(sum, difference) {
+	// Check for invalid inputs
+	if (sum < 0 || difference < 0) {
+			return null;
+	}
 
-	const individualAge = Math.round((sum - difference) / 2);
+	// Calculate the ages
+	const x = (sum + difference) / 2;
+	const y = (sum - difference) / 2;
 
-	return [individualAge + difference, individualAge]
-};
+	// Check if either age is negative
+	if (x < 0 || y < 0) {
+			return null;
+	}
+
+	// Return ages in descending order
+	return x >= y ? [x, y] : [y, x];
+}
 
 console.log(getAges(24, 4));
 console.log(getAges(63,-14));
