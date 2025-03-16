@@ -40,7 +40,7 @@ function updateInventory(curStock, newStock) {
       inventoryMap[brand] += quantity;
     } else {
       inventoryMap[brand] = quantity;
-    }
+    } 
   }
 
   // Преобразуем объект в массив пар [бренд, количество]
